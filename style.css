@@ -41,6 +41,7 @@ body {
 }
 
 .task-row-wrapper {
+  margin-top: 20px;
   display: flex;
 }
 
