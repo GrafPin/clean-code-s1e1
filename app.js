@@ -58,6 +58,7 @@ var createNewTaskElement=function(taskString){
     editButton.classList.add("main__button");
     deleteButton.classList.add("main__button");
     deleteButtonImg.classList.add("main__button-img");
+    deleteButtonImg.setAttribute("alt", "Delete Button");
 
     //and appending.
     listItem.appendChild(checkBox);
